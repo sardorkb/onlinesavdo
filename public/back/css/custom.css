@@ -1,0 +1,84 @@
+.modal-header {
+  background-color: #f8f9fa !important;
+}
+.modal-header h5 {
+  margin: 0 !important;
+}
+.modal-body h2 {
+  font-size: 1.5rem !important;
+  margin-bottom: 1rem !important;
+}
+.modal-body p {
+  margin-bottom: 1.5rem !important;
+}
+.form-group label {
+  display: block !important;
+  margin-bottom: 0.5rem !important;
+  font-weight: 500 !important;
+}
+.form-group label span {
+  color: red !important;
+}
+.form-group input {
+  width: 100% !important;
+  padding: 0.5rem !important;
+  margin-bottom: 1rem !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem !important;
+}
+.form-group .text-danger {
+  font-size: 0.875rem !important;
+}
+.form-group .login-btn {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+.checkbox {
+  margin-top: 1rem !important;
+}
+.checkbox-inline {
+  margin-right: 0.5rem !important;
+}
+.lost-pass {
+  display: block !important;
+  margin-top: 1rem !important;
+  color: #007bff !important;
+  text-decoration: none !important;
+}
+.modal-footer {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.modal-footer .btn {
+  width: 48% !important;
+}
+
+.brand-carousel-container {
+  overflow: hidden !important;
+  width: 100% !important;
+  position: relative !important;
+}
+
+.brand-carousel-track {
+  display: flex !important;
+  transition: transform 0.5s ease !important;
+}
+
+.brand-card {
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  margin: 15px !important;
+  text-align: center !important;
+  padding: 20px !important;
+  background-color: #fff !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  transition: transform 0.2s !important;
+  min-width: calc(100% / 6 - 30px) !important; /* Adjust the width to show 6 cards at a time */
+  box-sizing: border-box !important;
+}
+
+.brand-card img {
+  width: 70% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
